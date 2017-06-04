@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=MISO Pin=R13-2
+Removed Pin From Net: NetName=MOSI Pin=R20-2
+Removed Pin From Net: NetName=NetR2_1 Pin=U1-9
+Removed Pin From Net: NetName=DTR Pin=U1-19
+Removed Pin From Net: NetName=DTR Pin=U4-1
+Added Pin To Net: NetName=MOSI Pin=R13-2
+Added Pin To Net: NetName=MISO Pin=R20-2
+Added Net: Name=NetD5_1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetR3_1 Pin=U1-9
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=RSTPROG Pin=U1-19
+Added Pin To Net: NetName=RSTPROG Pin=U4-1
+Added Net: Name=RSTPROG
+Added Room: Name=avr910_bluetooth

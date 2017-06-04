@@ -1,0 +1,44 @@
+Protel Design System Design Rule Check
+PCB File : \ELECTRONIQUE\09_PROGRAMMATEURS\AVR910_BLUETOOTH\ELEC\AVR910_BLUETOOTH.PCBDOC
+Date     : 22/05/2008
+Time     : 00:22:01
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Track (110.109mm,73.025mm)(111.48mm,73.025mm)  Top Layer and                      Pad U4-1(111.48mm,73.025mm)  Top Layer   
+   Violation between Track (110.109mm,73.025mm)(111.48mm,73.025mm)  Top Layer and                      Pad U4-1(111.48mm,73.025mm)  Top Layer   
+   Violation between Track (108.839mm,96.901mm)(111.28mm,96.901mm)  Top Layer and                      Pad U1-19(111.28mm,96.901mm)  Top Layer   
+   Violation between Track (108.839mm,96.901mm)(111.28mm,96.901mm)  Top Layer and                      Pad U1-19(111.28mm,96.901mm)  Top Layer   
+   Violation between Track (102.08mm,88.011mm)(103.886mm,88.011mm)  Top Layer and                      Pad U1-9(102.08mm,88.011mm)  Top Layer   
+   Violation between Track (102.08mm,88.011mm)(103.886mm,88.011mm)  Top Layer and                      Pad U1-9(102.08mm,88.011mm)  Top Layer   
+   Violation between Track (98.552mm,68.58mm)(98.552mm,70.358mm)  Bottom Layer and                      Pad R20-2(98.552mm,70.358mm)  Bottom Layer   
+   Violation between Track (98.552mm,68.58mm)(98.552mm,70.358mm)  Bottom Layer and                      Pad R20-2(98.552mm,70.358mm)  Bottom Layer   
+   Violation between Pad J1-8(98.552mm,68.58mm)  Multi-Layer and                      Pad R20-2(98.552mm,70.358mm)  Bottom Layer   
+   Violation between Track (101.092mm,68.58mm)(101.092mm,70.358mm)  Bottom Layer and                      Pad R13-2(101.092mm,70.358mm)  Bottom Layer   
+   Violation between Track (101.092mm,68.58mm)(101.092mm,70.358mm)  Bottom Layer and                      Pad R13-2(101.092mm,70.358mm)  Bottom Layer   
+   Violation between Pad J1-7(101.092mm,68.58mm)  Multi-Layer and                      Pad R13-2(101.092mm,70.358mm)  Bottom Layer   
+Rule Violations :12
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net RSTPROG   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : U1-19         Subnet : U4-1        Violation         Net MOSI   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : J1-8          Subnet : R13-2       Violation         Net MISO   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : J1-7          Subnet : R20-2    Rule Violations :3
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Room avr910_bluetooth (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('avr910_bluetooth'))
+Rule Violations :0
+
+
+Violations Detected : 15
+Time Elapsed        : 00:00:01

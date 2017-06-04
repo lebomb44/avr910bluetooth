@@ -1,0 +1,2 @@
+http://www.mikrocontroller.net/topic/52405
+http://www.siwawi.arubi.uni-kl.de/avr_projects/avrispre/index.html
